@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Task list</h1>
+    <div class="container">
+        <input id="task" class="input" type="text" placeholder="Digite a tarefa">
+        <input id="date" class="input" type="date">
+        <button id="add" class="button" onclick="addTask()">adicionar</button>
+    </div>
+    <div id="task-list"></div>
+    <script src="app.js"></script>
+
+    <footer id="footer">
+        &copy 2023 - Task list<br>
+        Desenvolvido por Tarcio Reis | <a href="https://www.flaticon.com/free-icons/delete" title="delete icons" target="_blank">Delete icons created by torskaya - Flaticon</a>
+    </footer>
+</body>
+</html>
